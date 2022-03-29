@@ -1,9 +1,9 @@
-from Google import Create_Service
+
 from googleapiclient.http import MediaFileUpload
 CLIENT_SECRET_FILE = 'client_secret_200462404523-fanmuul6hgarfq5s3avbs0mlj7tmv6rs.apps.googleusercontent.com.json'
 API_NAME = 'drive'
 API_VERSION = 'v3'
-SCOPES = ['https://www.googleapis.com/auth/drive']
+SCOPES = ['https://www.googleapis.com/auth/drive']from Google import Create_Service
 
 service = Create_Service(CLIENT_SECRET_FILE,API_NAME,API_VERSION,SCOPES)
 
